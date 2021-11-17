@@ -3,7 +3,7 @@ from ev3dev.ev3 import *
 import time
 
 mA = LargeMotor('outA')
-timeStart = time.time()
+timeStart = time.time() # chỗ này không cần đâu nha
 mA.position = current_time = start_time = 0
 
 fh = open('data.txt', 'w')
